@@ -64,37 +64,14 @@ type WallpaperMenuItem = {
 export const WALLPAPER_MENU: WallpaperMenuItem[] = [
   {
     id: "APOD",
+  },
+  {
+    id: "Uccelo",
     startsWith: true,
-  },
-  {
-    id: "COASTAL_LANDSCAPE",
-    name: "Coastal Landscape",
-  },
-  {
-    id: "HEXELLS",
-    name: "Hexells",
-  },
-  {
-    id: "MATRIX 2D",
-    name: "Matrix (2D)",
-  },
-  {
-    id: "MATRIX 3D",
-    name: "Matrix (3D)",
   },
   {
     id: "SLIDESHOW",
     name: "Picture Slideshow",
-  },
-  {
-    id: "STABLE_DIFFUSION",
-    name: "Stable Diffusion (Beta)",
-    requiresWebGPU: true,
-  },
-  {
-    id: "VANTA",
-    name: "Vanta Waves",
-    startsWith: true,
   },
 ];
 

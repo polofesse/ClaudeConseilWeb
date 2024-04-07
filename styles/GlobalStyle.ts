@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   html {
-    background-color: ${({ theme }) => theme.colors.background};
+    background-color: rgb(0, 120, 215);
     background-position: center;
     /* stylelint-disable value-no-vendor-prefix */
     height: -webkit-fill-available;

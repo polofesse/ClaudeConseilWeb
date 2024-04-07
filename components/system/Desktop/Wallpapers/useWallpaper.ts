@@ -247,7 +247,7 @@ const useWallpaper = (
 
     window.WallpaperDestroy?.();
 
-    let wallpaperUrl = "";
+    let wallpaperUrl = "https://imgur.com/AHB8xKL";
     let fallbackBackground = "";
     let newWallpaperFit = wallpaperFit;
     const isSlideshow = wallpaperName === "SLIDESHOW";
